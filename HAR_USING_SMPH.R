@@ -50,5 +50,5 @@ summarydata2<-summarise(Subject_Type,tBodyAcc_mean_X = mean(tBodyAcc_mean_X),
 FinalMergeSumm<-merge(summarydata1,summarydata2,all=T)
 head(FinalMergeSumm)
 
-write.table(FinalMergeSumm,file = "Final_Summary_Report.txt",sep="  ",row.names = F,col.names = F)
+write.table(FinalMergeSumm,file = "Final_Summary_Report.txt",sep="  ",row.names = F)
 
