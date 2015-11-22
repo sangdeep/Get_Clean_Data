@@ -43,7 +43,7 @@ Part2_data<-select(FinalMerge,V1:V6)
 Part2_data$label<-FinalMerge$label
 Part2_data$subject<-FinalMerge$subject
 
-#### Descriptive Label added to Activity
+#### Descriptive Label added to Label Variable
 
 Part3_data<-Part2_data
 Part3_data$label<-factor(Part3_data$label,levels = c(1,2,3,4,5,6) ,

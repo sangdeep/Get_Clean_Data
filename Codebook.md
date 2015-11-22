@@ -14,10 +14,10 @@ Each mean value suggest the total mean body acceleration in 3 axial raw directio
  * tBodyAcc_std_X - Mean Standard Dev. body acceleration in x axial direction
  * tBodyAcc_std_Y - Mean Standard Dev. body acceleration in y axial direction 
  * tBodyAcc_std_Z - Mean Standard Dev. body acceleration in z axial direction 
- * Activity - Name of Activity Performed (Rows with NA are belong to Subject Summary Stats)
+ * Label - Name of Activity Performed (Rows with NA are belong to Subject Summary Stats)
  * Subject - Subject Identifier (Rows with NA are belong to Subject Summary Stats)
 
-Please note, each row labeled with particular activity reflecting summary report for same, rows with NA values for this variable belongs to subject summaries and to identify particular subject please refer subject variable.
+Please note, each row of Label variable with particular activity reflecting summary report for same, rows with NA values for this variable belongs to subject summaries and to identify particular subject please refer subject variable.
 
 ## Raw Data Set
 The obtained data set has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating 
